@@ -385,3 +385,248 @@ body{
     margin: 30px 0px;
     cursor: pointer;
 }
+
+
+/* Media Queries */
+@media only screen and  (max-width:768px){
+    html{
+        font-size: 50%;
+    }
+
+    /* Hero Section */
+    #hero .hero .container .flex{
+        flex-direction: column;
+    }
+    #hero .container .left{
+        margin: 50px 0;
+    }
+    #hero .hero .container .left h1{
+        font-size: 2rem;
+    }
+    #hero .hero .container .left p{
+        font-size: 1.3rem;
+    }
+    #hero .hero .container .left .left-img img{
+        width: 30px;
+        margin: 20px 10px;
+    }
+    #hero .hero .container .left .left-img p{
+        margin: 0px;
+    }
+    #hero .hero .container .right img{
+        width: 200px;
+    }
+
+    /* Service Section */
+    #service .container .service .flex{
+        flex-direction: column;
+    }
+    #service .container .service .main-heading h1{
+        font-size: 2.5rem;
+    }
+    #service .container .main-heading .bottom-line{
+        width: 150px;
+    }
+    #service .container .main-heading .bottom-line::before{
+        width: 50px;
+        left: 53px;
+    }
+    #service .container .service .service-cards .card img{
+        width: 80px;
+    }
+    #service .container .service .service-cards .card h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    #service .container .service .service-cards .card p{
+        font-size: 1.3rem;
+    }
+    #service .container .service .all-service-btn{
+        padding: 0;
+        font-size: 1.3rem;
+    }
+
+
+    /* About Section */
+    #about .container .about .flex{
+        flex-direction: column;
+    }
+    #about .container .about .about-items img{
+        width: 90%;
+    }
+    #about .container .about .main-heading h1{
+        font-size: 2.5rem;
+    }
+    #about .container .main-heading .bottom-line{
+        width: 150px;
+    }
+    #about .container .main-heading .bottom-line::before{
+        width: 50px;
+        left: 53px;
+    }
+    #about .container .about .about-items .left h2{
+        font-size: 2rem;
+    }
+    #about .container .about .about-items .left ul li{
+        font-size: 1.2rem;
+    }
+
+    /* Testinomials Section */
+    #testinomials .container .testinomials .flex{
+        flex-direction: column;
+    }
+    #testinomials .container .testinomials .main-heading h1{
+        font-size: 2.5rem;
+    }
+    #testinomials .container .main-heading .bottom-line{
+        width: 150px;
+    }
+    #testinomials .container .main-heading .bottom-line::before{
+        width: 50px;
+        left: 53px;
+    }
+    #testinomials .container .testinomials-items .left,
+    #testinomials .container .testinomials-items .right{
+        width: 200px;
+    }
+    #testinomials .container .testinomials-items .right{
+        margin-top: 20px;
+    }
+    #testinomials .container .testinomials-items .left p,
+    #testinomials .container .testinomials-items .right p{
+        font-size: 1.3rem;
+    }
+    #testinomials .container .testinomials-items .left img,
+    #testinomials .container .testinomials-items .right img{
+        width: 40px;
+    }
+    #testinomials .container .testinomials-items .left .user-img,
+    #testinomials .container .testinomials-items .right .user-img{
+        flex-direction: row;
+    }
+
+
+    /* Contact Section */
+    #contact .container .contact .main-heading h1{
+        font-size: 2.5rem;
+    }
+    #contact .container .main-heading .bottom-line{
+        width: 150px;
+    }
+    #contact .container .main-heading .bottom-line::before{
+        width: 50px;
+        left: 53px;
+    }
+    #contact .container .contact .contact-items ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #contact .container .contact .contact-items img{
+        width: 30px;
+    }
+    /* Footer Section */
+    #footer .container .footer .footer-items{
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+    }
+    #footer .container .footer .footer-items .card img{
+        width: 70px;
+    }
+    #footer .container .footer .footer-items .card h2{
+        font-size: 2rem;
+    }
+    #footer .container .footer .footer-items .card p{
+        font-size: 1.3rem;
+    }
+    #footer .container .footer .footer-items .card .icon-p{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 10px 0px;
+    }
+    #footer .container .footer .footer-items .card i{
+        padding: .5rem;
+        margin: 0;
+    }
+    #footer .container .footer .footer-items .card input[type='email']{
+        width:140px ;
+        font-size: 1rem;
+    }
+    #footer .container .footer .footer-items .card input[type='submit']{
+        font-size: 1.3rem;
+        padding:8px 5px;
+        display: block;
+    }   
+}
+
+
+@media only screen and (max-width:978px){
+    html{
+        font-size: 55%;
+    }
+    #hero .hero .container .flex{
+        flex-direction: column;
+    }
+    #hero .container .left{
+        margin: 50px 0;
+    }
+    #service .container .service .flex{
+        flex-direction: column;
+    }
+    #about .container .about .flex{
+        flex-direction: column;
+    }
+    #testinomials .container .testinomials .flex{
+        flex-direction: column;
+    }
+    #testinomials .container .testinomials .flex .flex{
+        flex-direction: row;
+    }
+    #testinomials .container .testinomials .right{
+        margin: 20px 0px;
+    }
+    #footer .container .footer .footer-items{
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+    }
+}
+
+
+@media only screen and (min-width:978px){
+    #header .header .navbar .nav-list .hamburger{
+        display: none;
+    }
+    #header .header .navbar .nav-list ul{
+        list-style: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width:100%;
+        background:transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 30px;
+        z-index: 100;
+    }
+    #header .header .navbar .nav-list ul{
+        /* margin-right:300px; */
+    }
+    #header .header .navbar .nav-list ul li{
+        margin-right: 5px;
+    }
+    #header .header .navbar .nav-list ul li a{
+        font-size: 1.3rem;
+        font-weight: 400;
+        font-family: var(--font-secondary-2);
+    }
+    #header .header .navbar .nav-list ul li:hover a{
+        border: none;
+    }
+    #header .header .navbar .nav-list ul li a::after{
+        display: none;
+    }
+}
